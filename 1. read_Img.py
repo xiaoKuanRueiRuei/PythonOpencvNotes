@@ -1,7 +1,7 @@
 import cv2
 
 #讀入圖片
-img = cv2.imread('D:\img\img-test.jpg')
+img = cv2.imread('..\PythonOpencvNotes\Tools\img\img-test.jpg')
 #進行灰階
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #將圖片化為線條
