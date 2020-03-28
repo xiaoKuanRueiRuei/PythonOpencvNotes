@@ -9,8 +9,10 @@ canny_img = cv2.Canny(gray_img, 100, 100)
 
 #類型
 print(type(img))
-#大小
-print(img.shape)
+#高度、寬度、通道數
+print(f'width: {img.shape[1]} pixels')
+print(f'height: {img.shape[0]} pixels')
+print(f'channels: {img.shape[2]}')
 
 #可以自由縮放式窗大小
 cv2.namedWindow('Image', cv2.WINDOW_NORMAL)
